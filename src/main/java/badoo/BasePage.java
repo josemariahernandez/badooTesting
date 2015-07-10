@@ -55,7 +55,6 @@ public class BasePage {
     }
 
     public String title(){
-        System.out.println(driver.getTitle()+"-----------------");
         return driver.getTitle();
     }
 

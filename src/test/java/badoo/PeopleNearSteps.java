@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 public class PeopleNearSteps {
     private WebDriver driver;
     private PeopleNearPage peopleNearPage;
+    private PeopleProfilePage peopleProfilePage;
 
     public PeopleNearSteps(ShareDriver driver){
         this.driver = driver;
@@ -29,13 +30,15 @@ public class PeopleNearSteps {
         peopleNearPage.accessToPeopleProfile();
     }
 
-    @And("^I write the message$")
+    @And("^I send the message$")
     public void i_write_the_message(){
-
+        peopleProfilePage = new PeopleProfilePage(driver);
+        peopleProfilePage.writeAMessage("hola");
+        peopleProfilePage.sendMessage();
     }
 
     @Then("^I cand send it$")
     public void i_can_send_it(){
-
+        peopleProfilePage.existMessage("hola");
     }
 }

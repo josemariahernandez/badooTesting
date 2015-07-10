@@ -5,5 +5,5 @@ Feature:
 
   Scenario: Send a message
     When I push some photo
-    And I write the message
+    And I send the message
     Then I can send it
