@@ -6,4 +6,4 @@ Feature:
   Scenario: Send a message
     When I push some photo
     And I send the message
-    Then I can send it
+    Then I can see it

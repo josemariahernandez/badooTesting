@@ -37,7 +37,7 @@ public class PeopleNearSteps {
         peopleProfilePage.sendMessage();
     }
 
-    @Then("^I cand send it$")
+    @Then("^I can see it$")
     public void i_can_send_it(){
         peopleProfilePage.existMessage("hola");
     }

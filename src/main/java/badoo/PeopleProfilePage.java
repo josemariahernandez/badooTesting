@@ -11,7 +11,6 @@ public class PeopleProfilePage extends BasePage {
 
     public void writeAMessage(String content){
         pressButton(element("chat"));
-
         fillField(element("text_box"), content);
     }
 
