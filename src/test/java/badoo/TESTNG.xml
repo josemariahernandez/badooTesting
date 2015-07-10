@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="false">
+
+    <test name="FirefoxTest">
+
+        <parameter name="browser" value="firefox" />
+
+        <classes>
+
+            <class name="badoo.RunTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="IETest">
+
+        <parameter name="browser" value="chrome" />
+
+        <classes>
+
+            <class name="badoo.RunTest" />
+
+        </classes>
+
+    </test>
+
+</suite>
