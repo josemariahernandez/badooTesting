@@ -16,7 +16,6 @@ public class ShareDriver extends EventFiringWebDriver {
 
     @After
     public void closeWebDriver(){
-        //quit();
-        //close();
+        quit();
     }
 }

@@ -25,24 +25,26 @@
     <splitter split-orientation="horizontal" split-proportion="0.47997457">
       <split-first>
         <leaf>
-          <file leaf-file-name="ShareDriver.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="ShareDriver.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/badoo/ShareDriver.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+                <state vertical-scroll-proportion="0.42977527">
+                  <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#272#273#0" expanded="true" />
                     <element signature="e#320#321#0" expanded="true" />
+                    <element signature="e#366#367#0" expanded="true" />
+                    <element signature="e#388#389#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TypeWebDriver.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="TypeWebDriver.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/badoo/TypeWebDriver.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.28651685">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
                   <folding />
                 </state>
@@ -293,7 +295,6 @@
         <option value="$PROJECT_DIR$/src/main/java/badoo/elements/peopleNear_page.properties" />
         <option value="$PROJECT_DIR$/src/main/java/badoo/PeopleNearPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/badoo/elements/peopleProfile_page.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/badoo/ShareDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/badoo/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/badoo/PeopleProfilePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/badoo/BasePage.java" />
@@ -301,6 +302,7 @@
         <option value="$PROJECT_DIR$/src/test/java/badoo/PeopleNearSteps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/badoo/03_peopleNear_page.feature" />
         <option value="$PROJECT_DIR$/src/test/java/badoo/TypeWebDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/badoo/ShareDriver.java" />
       </list>
     </option>
   </component>
@@ -993,6 +995,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#272#273#0" expanded="true" />
             <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1254,18 +1258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/badoo/ShareDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/badoo/00_login_page.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1380,9 +1372,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/badoo/TypeWebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28651685">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/badoo/ShareDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42977527">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
